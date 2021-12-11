@@ -12,6 +12,7 @@
   --fourth-text-color: #555555;
   --accent-color: #2196f3;
   --footer-background: #2f303a;
+  --footer-dets-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -281,6 +282,33 @@ body {
 
 .footer {
   background-color: var(--footer-background);
+}
+
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--first-btn-color);
+}
+
+.footer-add {
+  color: var(--first-btn-color);
+}
+
+.footer-details {
+  color: var(--footer-dets-color);
+}
+
+.footer-add:hover,
+.footer-add:focus {
+  color: var(--accent-color);
+}
+
+.footer-details:hover,
+.footer-details:focus {
+  color: var(--accent-color);
 }
 
 .logo-second-part {
